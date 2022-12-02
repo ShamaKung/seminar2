@@ -22,7 +22,7 @@ else
 
 // 2 решение
 
-/*
+
 
 Console.WriteLine("Введите 3-х значное число");
 string a = Console.ReadLine();
@@ -31,7 +31,7 @@ int secondDigital = Convert.ToInt32(a);
 
 if(alength == 3)
 {
-    double result = secondDigital % 100 / 10;
+    int result = secondDigital % 100 / 10;
     Console.WriteLine(result);
 }
 else
@@ -39,4 +39,4 @@ else
     Console.WriteLine("Неверный формат числа");
 }
 
-*/
+
