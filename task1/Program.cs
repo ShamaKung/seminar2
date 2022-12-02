@@ -23,15 +23,14 @@ else
 // 2 решение
 
 
-
 Console.WriteLine("Введите 3-х значное число");
 string a = Console.ReadLine();
 int alength = a.Length;
-int secondDigital = Convert.ToInt32(a);
+int digital = Convert.ToInt32(a);
 
 if(alength == 3)
 {
-    int result = secondDigital % 100 / 10;
+    int result = digital % 100 / 10;
     Console.WriteLine(result);
 }
 else
