@@ -22,6 +22,7 @@ else
 
 // 2 решение
 
+/*
 
 Console.WriteLine("Введите 3-х значное число");
 string a = Console.ReadLine();
@@ -38,4 +39,5 @@ else
     Console.WriteLine("Неверный формат числа");
 }
 
+*/
 
